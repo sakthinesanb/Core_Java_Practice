@@ -1,6 +1,6 @@
 package org.javabasics;
 
-public class DataTypesAndVariables {
+public class DataTypes {
 	int defaultValInt;
 	byte defaultValByte;
 	short defaultValShort;
@@ -27,9 +27,9 @@ public class DataTypesAndVariables {
 
 	}
 public static void main(String[] args) {
-	String title="Datatypes and variables:";
+	String title="Datatypes:";
 	System.out.println(title);
-	DataTypesAndVariables obj=new DataTypesAndVariables();
+	DataTypes obj=new DataTypes();
 	obj.defaultValOfDatatypes();
 }
 }
